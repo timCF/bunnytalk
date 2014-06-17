@@ -14,7 +14,7 @@ defmodule Bunnytalk.Mixfile do
 
   defp deps do
     [
-      {:exrabbit, github: "d0rc/exrabbit"},
+      {:exrabbit, github: "d0rc/exrabbit", branch: "rabbit-3.3"},
       {:jazz, github: "d0rc/jazz", override: true, branch: "v0.14.1"},
       {:sweetconfig, github: "d0rc/sweetconfig"},
       {:exactor, github: "sasa1977/exactor"}
