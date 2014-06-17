@@ -8,7 +8,7 @@ defmodule Bunnytalk.Mixfile do
   end
 
   def application do
-    [applications: [:exrabbit, :exactor],
+    [applications: [:exrabbit, :exactor, :sweetconfig],
      mod: {Bunnytalk, []}]
   end
 
